@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#car-selector {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#car-selector label {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#car-selector label:hover {
+    background-color: #ccc;
+}
+
+#car-selector input[type="radio"] {
+    display: none;
+}
+
+#car-selector input[type="radio"]:checked + label {
+    background-color: #333;
+    color: #fff;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#buy-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buy-button:hover {
+    background-color: #555;
+}
